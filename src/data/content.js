@@ -33,28 +33,28 @@ export const PROJECTS = [
     description:
       'Full-featured shopping experience with cart management, real-time inventory, and seamless checkout flow. Optimized for performance with code-splitting and lazy loading.',
     tags: ['React', 'Redux', 'TypeScript', 'Tailwind'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://ecommerce-mu-liard.vercel.app/',
+    githubUrl: 'https://github.com/IsmailovSardorbek/Ecommerce/',
   },
   {
     number: '02',
-    title: 'Analytics Dashboard',
-    filename: 'dashboard.tsx',
+    title: 'Restaurant website',
+    filename: 'matoka.tsx',
     description:
-      'Real-time data visualization dashboard with dynamic charts, filterable tables, and dark/light mode. Built for speed — renders 10k data points without jank.',
+      'A modern restaurant website with an interactive menu filtering system, built for a real business client.',
     tags: ['React', 'TypeScript', 'CSS Grid'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://matoka-cz.vercel.app/',
+    githubUrl: 'https://github.com/IsmailovSardorbek/Restaurant-website/',
   },
   {
     number: '03',
-    title: 'Real-Time Chat App',
-    filename: 'chat-app.tsx',
+    title: 'Gadgets and accessories shop',
+    filename: 'xtra-gadgets.tsx',
     description:
-      'Messaging application with room support, typing indicators, emoji reactions, and file sharing. Designed with accessibility and responsive UX as first-class concerns.',
+      'A full-featured gadgets e-commerce store with cart, wishlist, ordering, and dynamic product filtering.',
     tags: ['React', 'Bootstrap', 'JavaScript'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://xtra-gadgets.vercel.app/',
+    githubUrl: 'https://github.com/IsmailovSardorbek/Xtra-gadgets/',
   },
 ]
 
@@ -62,7 +62,7 @@ export const EXPERIENCES = [
   {
     period: '2023 — Present',
     role: 'Frontend Developer',
-    company: '@ Freelance / Remote',
+    company: 'Freelance / Remote',
     description:
       'Building production React apps for clients across fintech, edtech, and SaaS verticals. Delivering pixel-perfect UIs, performance audits, and interactive data dashboards.',
     techs: ['React', 'TypeScript', 'Redux', 'Tailwind'],
@@ -70,7 +70,7 @@ export const EXPERIENCES = [
   {
     period: '2022 — 2023',
     role: 'Junior Frontend Developer',
-    company: '@ Web Agency, Tashkent',
+    company: 'Webline, Tashkent',
     description:
       'Developed responsive landing pages, admin panels, and e-commerce UIs. Led migration of legacy jQuery codebase to React, improving load times by 40%.',
     techs: ['React', 'JavaScript', 'Bootstrap', 'CSS'],
@@ -78,7 +78,7 @@ export const EXPERIENCES = [
   {
     period: '2021 — 2022',
     role: 'Intern / Self-Taught Developer',
-    company: '@ Learning & Building',
+    company: 'Learning & Building',
     description:
       'Intensive self-study through online courses, open source contributions, and personal projects. Built 10+ practice apps to master HTML, CSS, and JavaScript fundamentals.',
     techs: ['HTML', 'CSS', 'JavaScript'],
@@ -86,8 +86,7 @@ export const EXPERIENCES = [
 ]
 
 export const CONTACT_LINKS = [
-  { icon: '✉', label: 'sardor@example.com', href: 'mailto:sardor@example.com' },
-  { icon: '✈', label: '@sardor · Telegram', href: 'https://t.me/sardor' },
-  { icon: '⌥', label: 'github.com/sardor', href: 'https://github.com/sardor' },
-  { icon: '◈', label: 'linkedin.com/in/sardor', href: 'https://linkedin.com/in/sardor' },
+  { icon: '✉', label: 'Email', href: 'mailto:ismailovsardorbek792@gmail.com' },
+  { icon: '✈', label: 'Telegram', href: 'https://t.me/johnnny_silverhand' },
+  { icon: '⌥', label: 'Github', href: 'https://github.com/IsmailovSardorbek' },
 ]
