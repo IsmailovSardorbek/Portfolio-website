@@ -28,6 +28,16 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     number: '01',
+    title: 'TOiR Navoiyazot',
+    filename: 'toir-tenzorsoft.tsx',
+    description:
+        'Corporate maintenance and repair management system',
+    tags: ['React', 'Zustand', 'TypeScript', 'Tailwind', 'React-i18next', 'Vite', 'Lucide React', 'Recharts'],
+    liveUrl: 'https://toir.tenzorsoft.uz',
+    githubUrl: 'https://github.com/IsmailovSardorbek/Ecommerce/',
+  },
+  {
+    number: '02',
     title: 'E-Commerce Platform',
     filename: 'e-commerce.tsx',
     description:
