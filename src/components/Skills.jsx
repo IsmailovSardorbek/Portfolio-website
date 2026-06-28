@@ -19,16 +19,18 @@ function SkillCard({ skill, index }) {
   return (
     <div
       ref={ref}
-      className="skill-card"
+      className='skill-card'
       style={{ '--level': `${skill.level}%` }}
       onMouseMove={onMouseMove}
     >
-      <div className="skill-icon">{skill.icon}</div>
-      <div className="skill-name">{skill.name}</div>
-      <div className="skill-level-bar">
-        <div className="skill-level-fill" />
+      <div className='skill-icon'>
+        <img src={skill.icon} width={40} height={35}/>
       </div>
-      <div className="skill-tag">{skill.tag}</div>
+      <div className='skill-name'>{skill.name}</div>
+      <div className='skill-level-bar'>
+        <div className='skill-level-fill' />
+      </div>
+      <div className='skill-tag'>{skill.tag}</div>
     </div>
   )
 }
@@ -37,14 +39,14 @@ export function Skills() {
   const headerRef = useScrollReveal()
 
   return (
-    <section id="skills">
-      <div className="section-wrap">
-        <div ref={headerRef} className="section-header reveal">
-          <div className="section-eyebrow">// tech stack</div>
-          <h2 className="section-title">Skills &amp; Tools</h2>
+    <section id='skills'>
+      <div className='section-wrap'>
+        <div ref={headerRef} className='section-header reveal'>
+          <div className='section-eyebrow'>// tech stack</div>
+          <h2 className='section-title'>Skills &amp; Tools</h2>
         </div>
 
-        <div className="skills-grid">
+        <div className='skills-grid'>
           {SKILLS.map((skill, index) => (
             <SkillCard key={skill.name} skill={skill} index={index} />
           ))}

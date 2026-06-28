@@ -15,14 +15,54 @@ export const TYPING_PHRASES = [
 ]
 
 export const SKILLS = [
-  { name: 'React', icon: '⚛️', level: 95, tag: 'core' },
-  { name: 'JavaScript', icon: '🟨', level: 90, tag: 'core' },
-  { name: 'TypeScript', icon: '🔷', level: 88, tag: 'core' },
-  { name: 'CSS', icon: '🎨', level: 92, tag: 'styling' },
-  { name: 'HTML', icon: '🌐', level: 95, tag: 'foundation' },
-  { name: 'Tailwind', icon: '💨', level: 85, tag: 'styling' },
-  { name: 'Bootstrap', icon: '🅱️', level: 80, tag: 'framework' },
-  { name: 'Redux', icon: '🔄', level: 82, tag: 'state' },
+  {
+    name: 'React',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/960px-React-icon.svg.png',
+    level: 95,
+    tag: 'core',
+  },
+  {
+    name: 'JavaScript',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+    level: 90,
+    tag: 'core',
+  },
+  {
+    name: 'TypeScript',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968381.png',
+    level: 88,
+    tag: 'core',
+  },
+  {
+    name: 'CSS',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968242.png',
+    level: 92,
+    tag: 'styling',
+  },
+  {
+    name: 'HTML',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968267.png',
+    level: 95,
+    tag: 'foundation',
+  },
+  {
+    name: 'Tailwind',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/960px-Tailwind_CSS_Logo.svg.png',
+    level: 85,
+    tag: 'styling',
+  },
+  {
+    name: 'Bootstrap',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/960px-Bootstrap_logo.svg.png',
+    level: 80,
+    tag: 'framework',
+  },
+  {
+    name: 'Redux',
+    icon: 'https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png',
+    level: 82,
+    tag: 'state',
+  },
 ]
 
 export const PROJECTS = [
@@ -30,9 +70,17 @@ export const PROJECTS = [
     number: '01',
     title: 'TOiR Navoiyazot',
     filename: 'toir-tenzorsoft.tsx',
-    description:
-        'Corporate maintenance and repair management system',
-    tags: ['React', 'Zustand', 'TypeScript', 'Tailwind', 'React-i18next', 'Vite', 'Lucide React', 'Recharts'],
+    description: 'Corporate maintenance and repair management system',
+    tags: [
+      'React',
+      'Zustand',
+      'TypeScript',
+      'Tailwind',
+      'React-i18next',
+      'Vite',
+      'Lucide React',
+      'Recharts',
+    ],
     liveUrl: 'https://toir.tenzorsoft.uz',
     githubUrl: 'https://github.com/IsmailovSardorbek/Ecommerce/',
   },
@@ -70,28 +118,21 @@ export const PROJECTS = [
 
 export const EXPERIENCES = [
   {
-    period: '2023 — Present',
+    period: '2026 — Present',
     role: 'Frontend Developer',
-    company: 'Freelance / Remote',
+    company: 'Tenzor Soft',
     description:
       'Building production React apps for clients across fintech, edtech, and SaaS verticals. Delivering pixel-perfect UIs, performance audits, and interactive data dashboards.',
-    techs: ['React', 'TypeScript', 'Redux', 'Tailwind'],
+    techs: ['React', 'TypeScript', 'Tailwind', 'Zustand', 'Ant Design'],
   },
+
   {
-    period: '2022 — 2023',
-    role: 'Junior Frontend Developer',
-    company: 'Webline, Tashkent',
-    description:
-      'Developed responsive landing pages, admin panels, and e-commerce UIs. Led migration of legacy jQuery codebase to React, improving load times by 40%.',
-    techs: ['React', 'JavaScript', 'Bootstrap', 'CSS'],
-  },
-  {
-    period: '2021 — 2022',
+    period: '2023 — 2025',
     role: 'Intern / Self-Taught Developer',
     company: 'Learning & Building',
     description:
       'Intensive self-study through online courses, open source contributions, and personal projects. Built 10+ practice apps to master HTML, CSS, and JavaScript fundamentals.',
-    techs: ['HTML', 'CSS', 'JavaScript'],
+    techs: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
 ]
 
