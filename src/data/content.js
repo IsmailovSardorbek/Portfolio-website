@@ -86,6 +86,16 @@ export const PROJECTS = [
   },
   {
     number: '02',
+    title: 'Pulse Dashboard',
+    filename: 'pulse-dashboard.tsx',
+    description:
+      'A SaaS revenue analytics dashboard built with React, Vite, and Tailwind CSS — featuring MRR tracking, user activity charts, and dark mode.',
+    tags: ['React', 'Vite', 'TypeScript', 'Tailwind'],
+    liveUrl: 'https://pulse-dashboard-eta-ebon.vercel.app/',
+    githubUrl: 'https://github.com/IsmailovSardorbek/Pulse-dashboard/',
+  },
+  {
+    number: '03',
     title: 'E-Commerce Platform',
     filename: 'e-commerce.tsx',
     description:
@@ -95,7 +105,7 @@ export const PROJECTS = [
     githubUrl: 'https://github.com/IsmailovSardorbek/Ecommerce/',
   },
   {
-    number: '02',
+    number: '04',
     title: 'Restaurant website',
     filename: 'matoka.tsx',
     description:
@@ -105,7 +115,7 @@ export const PROJECTS = [
     githubUrl: 'https://github.com/IsmailovSardorbek/Restaurant-website/',
   },
   {
-    number: '03',
+    number: '05',
     title: 'Gadgets and accessories shop',
     filename: 'xtra-gadgets.tsx',
     description:
